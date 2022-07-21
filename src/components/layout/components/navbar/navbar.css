@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    background: transparent;
+    width: 1108.85px;
+    position: absolute ;
+    top: 50px;
+    left: 166.15px;
+    border: 1px solid red;
+}
+
+.left{
+    width: 60%;
+    
+}
+.right{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}

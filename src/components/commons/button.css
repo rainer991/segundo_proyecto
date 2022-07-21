@@ -1,0 +1,22 @@
+@import "../../constants/colors.css";
+
+
+.custom-button-dark-blue{
+    background-color: var(--white2);
+    border-color: var(--dark-blue);
+    border-style: solid;
+    width: 219px;
+    height: 56px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--dark-blue);
+    border-radius: 5px;
+    top: 50px;
+    left: 1056px;
+}
+
+.custom-button-dark-blue:hover{
+    background-color: var(--dark-blue);
+    color: white;
+    cursor: pointer;
+}

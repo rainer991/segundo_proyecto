@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 464px;
+    width: 1440px;
+    background-color: var(--cream);
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.left1{
+    width: 40%;
+    padding-left: 167px;
+    
+}
+.right{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
