@@ -7,16 +7,20 @@
     background-color: var(--cream);
     bottom: 0px;
     left: 0px;
-    position: absolute;
+    position: fixed;
 }
 
 .left1{
     width: 40%;
     padding-left: 167px;
+    padding-top: 300px;
+    
     
 }
 .right{
     width: 40%;
-    display: flex;
-    justify-content: flex-end;
+}
+
+.copy {
+    text-align: center;
 }

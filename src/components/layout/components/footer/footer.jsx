@@ -10,7 +10,9 @@ const Footer = () =>{
                 <img src={CustomLogo2}/>
             </div>
             <div className="right">
-            
+            </div>
+            <div>
+                <Box/>
             </div>
         </div>
     );

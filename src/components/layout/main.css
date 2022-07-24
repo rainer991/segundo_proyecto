@@ -1,3 +1,11 @@
 .main {
-   background-color: white;
+   background-image: url('../../assets/images/main_bg.png');
+   display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-size: 30%;
+    width: 100%;
+    background-position-x: center;
+    background-repeat: no-repeat
 }
