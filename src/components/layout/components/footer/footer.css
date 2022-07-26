@@ -1,26 +1,43 @@
 .footer{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: self-end;
     height: 464px;
-    width: 1440px;
+    width: 100%;
     background-color: var(--cream);
-    bottom: 0px;
     left: 0px;
-    position: fixed;
-}
+    flex-direction: row;
+  }
 
-.left1{
+
+
+.left{
     width: 40%;
-    padding-left: 167px;
-    padding-top: 300px;
+    padding-left: 100px;
+    height: 100px;
     
     
+    
+       
 }
 .right{
     width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 20px;
+    padding-right: 100px;
+    height: 100px;
+    
+    
 }
 
-.copy {
-    text-align: center;
+.center {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+
 }
+

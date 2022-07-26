@@ -4,19 +4,20 @@
     align-items: center;
     height: 56px;
     background: transparent;
-    width: 1108.85px;
+    width: 100%;
     position: absolute ;
     top: 50px;
-    left: 166.15px;
-    border: 1px solid red;
-}
-
-.left{
-    width: 60%;
     
 }
-.right{
+
+.left1{
+    width: 100%;
+    padding-left: 100px;
+    
+}
+.right1{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    padding-right: 100px;
 }

@@ -1,9 +1,9 @@
 
-import { Main } from "./components/layout/main";
+import { Main } from "./components/layout/main-layout";
 
 const App = () => {
   return (
-    <div>
+    <div style={{display: 'flex', justifyContent:'center'}}>
       <Main/>
     </div>
   );
